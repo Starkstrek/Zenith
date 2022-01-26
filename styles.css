@@ -440,6 +440,137 @@
    }
    
    /* Footer CSS */
+  
+ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer-section {
+    background: rgb(51,155,158);
+    background: linear-gradient(145deg, rgba(51,155,158,1) 0%, rgba(104,204,152,1) 100%);
+    position: relative;
+  }
+  .footer-cta {
+  border-bottom: 1px solid #373636;
+  }
+  .single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+  }
+  .cta-text {
+  padding-left: 15px;
+  display: inline-block;
+  }
+  .cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  }
+  .cta-text span {
+  color: #757575;
+  font-size: 15px;
+  }
+  .footer-content {
+  position: relative;
+  z-index: 2;
+  }
+  .footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+  }
+  .footer-logo {
+  margin-bottom: 30px;
+  }
+  .footer-logo .title {
+    color: #fff;
+    }
+  .footer-logo img {
+    max-width: 200px;
+  }
+  .footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 28px;
+  }
+  .footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  }
+  .footer-social-icon a {
+  color: rgb(125, 13, 190);
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 15px;
+  }
+  .footer-social-icon i {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  }
+  .facebook-bg{
+  background: #3B5998;
+  }
+  .twitter-bg{
+  background: #55ACEE;
+  }
+  .google-bg{
+  background: #DD4B39;
+  }
+  
+  .contact-card{
+    display: flex;
+  }
+  .contact-card p{
+    color: #fff;
+  }
+  .contact-card div a{
+  display: inline;
+  width: 50%;
+  text-align: center;
+  margin: 12px;
+  }
+  .contact-card div a:hover{
+  color: #ff5e14;
+  }
+  
+  .map iframe{
+    height: 100%;
+    width: 100%;
+    margin: 5px 0;
+  }
+  .copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+  }
+  .copyright-text p a{
+  color: #ff5e14;
+  }
+  .footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+  }
+  .footer-menu li:hover a{
+  color: #ff5e14;
+  }
+  .footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+  }
    
    
    @media screen and (max-width: 480px) {
